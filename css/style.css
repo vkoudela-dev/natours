@@ -1,3 +1,11 @@
+/* breakpoint argument options:
+- phones
+- tab-port
+- tab-land
+- big-desktop
+*/
+/* browser default font-size: 16px;
+600px = 37.5em*/
 *,
 *::after,
 *::before {
@@ -7,6 +15,15 @@
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
   box-sizing: border-box; }
